@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-like font */
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-like font */
+    text-decoration: none;
+}
+
+/* Basic Styling */
+body {
+    background-color: #263238; /* #316e83 */
+    color: #FFFFFF; /* Bold black text */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 15px;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+/* Product Listings 
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}*/
+
+.contact {
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
