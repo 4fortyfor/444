@@ -36,16 +36,16 @@ nav {
 .left-column {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
+    justify-content: left;
+    max-width: 250px;
 }
 
 .right-column {
-    flex: 2;
+    flex: 3;
     padding: 20px;
     font-size: 20px;
     line-height: 1.5;
+    justify-content: left;
 }
 
 
